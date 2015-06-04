@@ -23,11 +23,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
    
     <section data-ng-app="eventsdemo" data-ng-controller="events">
-        <div data-ng-repeat="event in events">
-               <sport-event event="{{event}}">
+      
+               <sport-event data-ng-repeat="event in events" event="{{event}}" >
                   <h2>Sport events content</h2>
                </sport-event>
-        </div>
+       
      
 
     </section>

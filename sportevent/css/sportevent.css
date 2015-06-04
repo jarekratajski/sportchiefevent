@@ -1,0 +1,22 @@
+sport-event {
+  border-radius: 8px;
+  padding: 0.2em;
+}
+sport-event:nth-child(odd) {
+  background-color: rgba(212, 212, 32, 0.3);
+}
+sport-event > ul {
+  list-style-type: none;
+}
+sport-event > ul > li {
+  display: inline-block;
+}
+sport-event > ul > li:first-child {
+  width: 6em;
+}
+sport-event > ul > li:nth-child(2) {
+  background: white;
+  border-radius: 8px;
+  padding: 0.1em;
+}
+/*# sourceMappingURL=sportevent.css.map */
